@@ -27,3 +27,8 @@
               ("WAITING" :foreground "red" )
               ("SOMEDAY" :foreground "magenta" )
               ("CANCELLED" :foreground "yellow" ))))
+(setq redisplay-dont-pause nil)
+
+(global-set-key [f8] 'neotree-toggle)
+
+;;(nyan-mode t)
